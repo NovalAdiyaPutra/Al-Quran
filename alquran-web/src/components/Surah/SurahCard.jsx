@@ -16,7 +16,9 @@ function SurahCard({ surah }) {
           </div>
         </div>
 
-        <p className="text-primary text-2xl font-bold">{surah.nama}</p>
+        <p className="text-primary text-2xl font-bold arabic-text">
+          {surah.nama}
+        </p>
       </div>
     </Link>
   );

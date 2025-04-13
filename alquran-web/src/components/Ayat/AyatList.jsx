@@ -1,10 +1,16 @@
 import AyatCard from "./AyatCard";
 
-function AyatList({ ayat }) {
+function AyatList({ ayat, item, setTampil, setNomorTafsir }) {
   return (
     <div className="flex flex-col gap-3">
-      {ayat.map((item) => (
-        <AyatCard key={item.nomorAyat} ayat={item} />
+      {ayat.map((itemAyat) => (
+        <AyatCard
+          key={itemAyat.nomorAyat}
+          ayat={itemAyat}
+          item={item}
+          setTampil={setTampil}
+          setNomorTafsir={setNomorTafsir}
+        />
       ))}
     </div>
   );

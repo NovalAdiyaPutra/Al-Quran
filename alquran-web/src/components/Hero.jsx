@@ -10,7 +10,11 @@ function Hero() {
       bg-cover bg-center bg-no-repeat rounded-2xl"
       ></div>
       <div className="relative z-10 px-5 pt-8 flex flex-col gap-8">
-        <Profile greeting="Good Morning" name="Noval 👋🏻 " avatar={Photo} />
+        <Profile
+          greeting="Selamat datang di"
+          name="Web Al-Qur'an by Noval 👋🏻 "
+          avatar={Photo}
+        />
         <Verse
           verse="“He said: ‘Therein you shall live, and therein you shall die, and from it you shall be brought out (i.e. resurrected).’”"
           surah="Al-A’raaf (7:25)"
