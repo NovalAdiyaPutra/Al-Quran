@@ -13,7 +13,6 @@ function AudioControl({
     { id: "02", name: "Abdul Muhsin Al-Qasim" },
     { id: "03", name: "Abdurrahman as-Sudais" },
     { id: "04", name: "Ibrahim Al-Dossari" },
-    { id: "05", name: "Misyari Rasyid Al-Afasi" },
   ];
 
   return (
