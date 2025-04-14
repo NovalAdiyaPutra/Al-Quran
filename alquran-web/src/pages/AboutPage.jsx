@@ -29,13 +29,14 @@ function AboutPage() {
 
         <About />
 
-        <div className="mt-8 text-center">
+        {/* Tombol kembali ke homepage di tengah */}
+        <div className="mt-8 flex justify-center">
           <button
             onClick={() => navigate("/")}
-            className="font-semibold px-6 py-2 rounded-full transition"
+            className="font-semibold px-6 py-2 rounded-full transition shadow-md hover:scale-105"
             style={{
               backgroundColor: "var(--color-accent)",
-              color: "var(--color-light)",
+              color: "var(--color-text)",
             }}
           >
             ⬅ Kembali ke Homepage
